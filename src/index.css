@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+/* base styles */
+.topbar {
+  background-color: rgb(255, 255, 255);
+  height: 7vh;
+  width: 100vw;
+}
+
+.numberr {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+}
+.Selectedd {
+  color: #334d6e;
+  font-family: Poppins;
+  font-size: 13px;
+
+  font-weight: 500;
+}
+.Searching {
+  margin-top: -14.5vh;
+  margin-left: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 12px;
+}
+.notificationicon {
+  margin-left: 95vw;
+  margin-top: -5vh;
+}
+.searchicon {
+  margin-left: 21vw;
+  margin-top: -108vh;
+}
+
+.usersicon {
+  margin-left: 18px;
+
+  margin-top: 2vh;
+}
+.userssname h1 {
+  margin-left: 50px;
+  margin-top: -20px;
+  font-family: Poppins;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19.5px;
+
+  letter-spacing: 0.01em;
+
+  color: #334d6e;
+}
+
+.headers {
+  color: #334d6e;
+  opacity: 50%;
+  font-family: poppins;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.boxesicon {
+  margin-left: 18px;
+
+  margin-top: 20.5px;
+}
+.nameintable {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 13px;
+  color: #707683;
+  letter-spacing: 1%;
+}
+.editform {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  padding: 0 0 0 0;
+  border-radius: 0 !important;
+}
+.infotext {
+  color: #818e9b;
+  font-family: poppins;
+  font-size: 11px;
+  font-weight: 500px;
+  line-height: 16.5;
+
+  font-style: normal;
+}
+
+.boxesname1 h1 {
+  margin-left: 50px;
+  margin-top: -21px;
+  font-family: Poppins;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19.5px;
+
+  letter-spacing: 0.01em;
+
+  color: #0a47c4;
+}
+
+.boxesname h1 {
+  margin-left: 50px;
+  margin-top: -21px;
+  font-family: Poppins;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19.5px;
+
+  letter-spacing: 0.01em;
+
+  color: #334d6e;
+}
+.textsediting label {
+  font-family: poppins;
+  font-size: 11px;
+
+  text-align: inherit;
+  display: block;
+  font-weight: 500;
+}
+.textsediting input {
+  border: none;
+
+  outline: none;
+  width: 300px;
+  background-color: white;
+  border-collapse: collapse;
+
+  color: #192a3e;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.ordersicon {
+  margin-left: 18px;
+
+  margin-top: 20.5px;
+}
+
+input {
+  font-size: 12px;
+  font-family: poppins;
+  font-weight: 400;
+  color: #90a0b7;
+}
+
+.textsediting {
+  background-color: rgb(255, 255, 255);
+  width: 71vw;
+  float: left;
+  margin-top: 4vh;
+  margin-left: 41.6vh;
+  display: inline-block;
+  height: 27vh;
+}
+.sidebar {
+  background-color: rgb(255, 255, 255);
+  width: 17.7vw;
+  margin-top: -15vh;
+
+  box-shadow: 5px 5px 5px #e2e2e2;
+  height: 110vh;
+}
+
+.ordersname h1 {
+  margin-left: 50px;
+  margin-top: -20px;
+  font-family: Poppins;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19.5px;
+
+  letter-spacing: 0.01em;
+
+  color: #334d6e;
+}
+
+.ordersname1 h1 {
+  margin-left: 50px;
+  margin-top: -20px;
+  font-family: Poppins;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19.5px;
+
+  color: #0a47c4;
+  letter-spacing: 0.01em;
+}
+
+.settingsicon {
+  margin-left: 18px;
+
+  margin-top: 20.5px;
+}
+
+.lines {
+  margin-top: 320px;
+}
+.settingsname h1 {
+  margin-left: 50px;
+  margin-top: -21px;
+  font-family: Poppins;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19.5px;
+
+  letter-spacing: 0.01em;
+
+  color: #334d6e;
+}
+.allrequests h1 {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: Poppins;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19.5px;
+
+  letter-spacing: 0.01em;
+
+  color: #334d6e;
+}
+
+.allorders h1 {
+  margin-left: 67px;
+  margin-top: 20px;
+  font-family: Poppins;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19.5px;
+
+  letter-spacing: 0.01em;
+
+  color: #334d6e;
+}
+
+.customClass {
+  color: #334d6e;
+}
+
+.xologo {
+  margin-left: 18px;
+  margin-top: 10vh;
+}
+.pcicon {
+  margin-left: 32px;
+
+  margin-top: -78.5vh;
+}
+.pcname h1 {
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: -10px;
+  font-family: Poppins;
+
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 0px;
+
+  letter-spacing: 0.01em;
+
+  color: #334d6e;
+}
+.pcname2 h2 {
+  margin-left: 50px;
+  margin-top: -9px;
+  font-family: Poppins;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 0px;
+
+  letter-spacing: 0.01em;
+
+  color: #334d6e;
+}
+.pcicon2 {
+  margin-left: 32px;
+
+  margin-top: 20px;
+}
+
+.pciconol {
+  margin-left: 50px;
+
+  margin-top: -480px;
+}
+.pcnameol h1 {
+  margin-left: 67px;
+  margin-top: -10px;
+  font-family: Poppins;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 0px;
+
+  letter-spacing: 0.01em;
+
+  color: #334d6e;
+}
+.pcname2ol h2 {
+  margin-left: 67px;
+  margin-top: -9px;
+  font-family: Poppins;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 0px;
+
+  letter-spacing: 0.01em;
+
+  color: #334d6e;
+}
+.pcicon2ol {
+  margin-left: 50px;
+
+  margin-top: 17px;
+}
+.dashboardicon {
+  margin-left: 18px;
+
+  margin-top: 45px;
+}
+.requesticon {
+  margin-left: 18px;
+
+  margin-top: 26.5px;
+}
+
+.profileicon {
+  margin-left: 15px;
+
+  margin-top: 39.5px;
+}
+
+.name h1 {
+  margin-left: 60px;
+  margin-top: -40px;
+
+  font-family: Poppins;
+
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0em;
+  line-height: 5px;
+  color: #192a3e;
+}
+.titleboxes {
+  width: 166px;
+  height: 21px;
+
+  line-height: 21px;
+  color: #192a3e;
+
+  font-weight: 500;
+  font-family: Poppins;
+  font-style: Medium;
+  font-size: 14px;
+  align-content: Left;
+
+  vertical-align: top;
+
+  margin-left: 330px;
+  margin-top: 7vh;
+}
+.requestname h1 {
+  margin-left: 33px;
+  margin-top: -24px;
+  cursor: pointer;
+  font-family: Poppins;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19.5px;
+
+  letter-spacing: 0.01em;
+
+  color: #334d6e;
+
+  /*0A47C4*/
+}
+
+.code h2 {
+  margin-left: 60px;
+  margin-top: 8px;
+  font-family: Poppins;
+
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 1%;
+  line-height: 16.5px;
+  /* identical to box height */
+
+  letter-spacing: 0em;
+
+  /* gray */
+
+  color: #90a0b7;
+}
+.dashboardname h1 {
+  margin-left: 50px;
+
+  margin-top: -22px;
+
+  font-family: Poppins;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19.5px;
+
+  letter-spacing: 0em;
+
+  color: #334d6e;
+}
+.Tabledesign {
+  margin-left: 230px;
+  margin-top: -50px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.homecontent1 h2 {
+  width: 166px;
+  height: 21px;
+
+  line-height: 21px;
+  color: #192a3e;
+
+  font-weight: 500;
+  font-family: Poppins;
+  font-style: Medium;
+  font-size: 14px;
+  align-content: Left;
+
+  vertical-align: top;
+
+  margin-left: 330px;
+  margin-top: -3vh;
+}
+.homecontent2 h1 {
+  line-height: 21px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-family: Poppins;
+  font-style: Medium;
+  font-size: 13px;
+  margin-left: 24px;
+  margin-top: -38px;
+}
+.listss {
+  margin-left: -19px;
+  margin-top: 110px;
+}
+.homecontent3 h1 {
+  line-height: 21px;
+  color: rgb(35, 12, 99);
+  font-weight: 500;
+  font-family: Poppins;
+  font-style: Medium;
+  font-size: 13px;
+  margin-left: 24px;
+  margin-top: -38px;
+}
