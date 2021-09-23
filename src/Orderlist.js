@@ -3,6 +3,7 @@ import { useState } from "react";
 import Users from "./Users";
 import Boxes from "./Boxes";
 import Settings from "./Settings";
+import { Checkbox } from "@material-ui/core/";
 
 const Orderlist = () => {
   const [namee, setName] = useState("");
@@ -66,9 +67,8 @@ const Orderlist = () => {
       id: 1,
       select: false,
       tick: (
-        <input
-          type="checkbox"
-          class="input-assumpte"
+        <Checkbox
+          color="primary"
           onChange={(e) => {
             let checked = e.target.checked;
             if (checked) {
@@ -77,7 +77,10 @@ const Orderlist = () => {
               setCounter(counter - 1);
             }
           }}
-        ></input>
+          style={{
+            marginLeft: "-0.8vw",
+          }}
+        />
       ),
       code: "#6293620",
       name: "Mina Sami",
@@ -89,8 +92,8 @@ const Orderlist = () => {
       id: 2,
       select: false,
       tick: (
-        <input
-          type="checkbox"
+        <Checkbox
+          color="primary"
           onChange={(e) => {
             let checked = e.target.checked;
             if (checked) {
@@ -99,7 +102,10 @@ const Orderlist = () => {
               setCounter(counter - 1);
             }
           }}
-        ></input>
+          style={{
+            marginLeft: "-0.8vw",
+          }}
+        />
       ),
       code: "#6393620",
       name: "Leena",
@@ -111,8 +117,8 @@ const Orderlist = () => {
       id: 3,
       select: false,
       tick: (
-        <input
-          type="checkbox"
+        <Checkbox
+          color="primary"
           onChange={(e) => {
             let checked = e.target.checked;
             if (checked) {
@@ -121,7 +127,10 @@ const Orderlist = () => {
               setCounter(counter - 1);
             }
           }}
-        ></input>
+          style={{
+            marginLeft: "-0.8vw",
+          }}
+        />
       ),
       code: "#6493620",
       name: "Mina Sami",
@@ -133,8 +142,8 @@ const Orderlist = () => {
       id: 4,
       select: false,
       tick: (
-        <input
-          type="checkbox"
+        <Checkbox
+          color="primary"
           onChange={(e) => {
             let checked = e.target.checked;
             if (checked) {
@@ -143,7 +152,10 @@ const Orderlist = () => {
               setCounter(counter - 1);
             }
           }}
-        ></input>
+          style={{
+            marginLeft: "-0.8vw",
+          }}
+        />
       ),
       code: "#6493620",
       name: "Alia",
@@ -155,8 +167,8 @@ const Orderlist = () => {
       id: 5,
       select: false,
       tick: (
-        <input
-          type="checkbox"
+        <Checkbox
+          color="primary"
           onChange={(e) => {
             let checked = e.target.checked;
             if (checked) {
@@ -165,7 +177,10 @@ const Orderlist = () => {
               setCounter(counter - 1);
             }
           }}
-        ></input>
+          style={{
+            marginLeft: "-0.8vw",
+          }}
+        />
       ),
       code: "#6293620",
       name: "Mina Sami",
@@ -177,8 +192,8 @@ const Orderlist = () => {
       id: 6,
       select: false,
       tick: (
-        <input
-          type="checkbox"
+        <Checkbox
+          color="primary"
           onChange={(e) => {
             let checked = e.target.checked;
             if (checked) {
@@ -187,7 +202,10 @@ const Orderlist = () => {
               setCounter(counter - 1);
             }
           }}
-        ></input>
+          style={{
+            marginLeft: "-0.8vw",
+          }}
+        />
       ),
       code: "#6293620",
       name: "Ali",
@@ -199,8 +217,8 @@ const Orderlist = () => {
       id: 7,
       select: false,
       tick: (
-        <input
-          type="checkbox"
+        <Checkbox
+          color="primary"
           onChange={(e) => {
             let checked = e.target.checked;
             if (checked) {
@@ -209,7 +227,10 @@ const Orderlist = () => {
               setCounter(counter - 1);
             }
           }}
-        ></input>
+          style={{
+            marginLeft: "-0.8vw",
+          }}
+        />
       ),
       code: "#6293620",
       name: "Mina Sami",
@@ -221,8 +242,8 @@ const Orderlist = () => {
       id: 8,
       select: false,
       tick: (
-        <input
-          type="checkbox"
+        <Checkbox
+          color="primary"
           onChange={(e) => {
             let checked = e.target.checked;
             if (checked) {
@@ -231,7 +252,10 @@ const Orderlist = () => {
               setCounter(counter - 1);
             }
           }}
-        ></input>
+          style={{
+            marginLeft: "-0.8vw",
+          }}
+        />
       ),
       code: "#6293620",
       name: "Leena",
@@ -243,8 +267,8 @@ const Orderlist = () => {
       id: 9,
       select: false,
       tick: (
-        <input
-          type="checkbox"
+        <Checkbox
+          color="primary"
           onChange={(e) => {
             let checked = e.target.checked;
             if (checked) {
@@ -253,7 +277,10 @@ const Orderlist = () => {
               setCounter(counter - 1);
             }
           }}
-        ></input>
+          style={{
+            marginLeft: "-0.8vw",
+          }}
+        />
       ),
 
       code: "#6193620",
@@ -266,8 +293,8 @@ const Orderlist = () => {
       id: 10,
       select: false,
       tick: (
-        <input
-          type="checkbox"
+        <Checkbox
+          color="primary"
           onChange={(e) => {
             let checked = e.target.checked;
             if (checked) {
@@ -276,7 +303,10 @@ const Orderlist = () => {
               setCounter(counter - 1);
             }
           }}
-        ></input>
+          style={{
+            marginLeft: "-0.8vw",
+          }}
+        />
       ),
       code: "#6593620",
       name: "Mina Sami",

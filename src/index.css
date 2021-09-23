@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
-/* base styles */
 .topbar {
   background-color: rgb(255, 255, 255);
   height: 7vh;
@@ -144,7 +143,10 @@
 
   margin-top: 20.5px;
 }
-
+input[type="checkbox"]#checkbox1:checked + span {
+  border-color: red;
+  background-color: red;
+}
 input {
   font-size: 12px;
   font-family: poppins;
@@ -357,6 +359,10 @@ input {
   letter-spacing: 0em;
   line-height: 5px;
   color: #192a3e;
+}
+tr:hover {
+  background: #f2f9ff;
+  cursor: pointer;
 }
 .titleboxes {
   width: 166px;
