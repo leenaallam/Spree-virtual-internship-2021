@@ -1,4 +1,4 @@
-import { ReactComponent as Dashboardlogo } from "./dashboardlogo.svg";
+import { ReactComponent as Dashboardlogo } from "../../icons/dashboardlogo.svg";
 const Dashboardicon = () => {
   return (
     <div className="dashboardd">

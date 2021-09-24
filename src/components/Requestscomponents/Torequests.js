@@ -1,5 +1,5 @@
-import Sidebar from "./Sidebar";
-import Searchicon from "./Searchicon";
+import Sidebar from "../Sidebarcomponents/Sidebar";
+import Searchicon from "../../icons/Searchicon";
 
 const Torequests = () => {
   return (

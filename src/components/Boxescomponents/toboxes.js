@@ -1,5 +1,5 @@
-import Sidebar from "./Sidebar";
-import Searchicon from "./Searchicon";
+import Sidebar from "../Sidebarcomponents/Sidebar";
+import Searchicon from "../../icons/Searchicon";
 import { useState, useEffect, useRef } from "react";
 import * as React from "react";
 let useClickOutside = (handler) => {

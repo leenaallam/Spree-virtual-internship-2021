@@ -1,4 +1,4 @@
-import { ReactComponent as Profilelogo } from "./profileimage.svg";
+import { ReactComponent as Profilelogo } from "../../icons/profileimage.svg";
 
 const Profileicon = () => {
   return (

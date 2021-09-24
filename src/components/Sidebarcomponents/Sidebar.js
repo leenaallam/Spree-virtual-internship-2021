@@ -1,26 +1,26 @@
-import Xologo from "./Xologo";
-import { ReactComponent as Requestnotchecked } from "./notcheckedrequest.svg";
+import Xologo from "../../icons/Xologo";
+import { ReactComponent as Requestnotchecked } from "../../icons/notcheckedrequest.svg";
 
 import { useHistory } from "react-router";
 
 import React, { useEffect, useState } from "react";
-import Reqlist from "./Reqlist";
+import Reqlist from "../Requestscomponents/Reqlist";
 
 import Line from "./line";
-import { ReactComponent as Request } from "./requestslogo.svg";
-import Orderlist from "./Orderlist";
+import { ReactComponent as Request } from "../../icons/requestslogo.svg";
+import Orderlist from "../Orderscomponents/Orderlist";
 
 import Profileicon from "./Profileicon";
 
 import Users from "./Users";
-import Boxes from "./Boxes";
-import Orders from "./Orders";
+import Boxes from "../Boxescomponents/Boxes";
+import Orders from "../Orderscomponents/Orders";
 
 import Settings from "./Settings";
 
 import Dashboardicon from "./Dashboardicon";
 
-import Requesticon2 from "./Requesticon2";
+import Requesticon2 from "../../icons/Requesticon2";
 export default function Sidebar() {
   const history = useHistory();
   const [inorders, setTrueorders] = useState(false);

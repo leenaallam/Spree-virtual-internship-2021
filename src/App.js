@@ -2,11 +2,11 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 
-import Toboxes from "./toboxes";
-import Firstpage from "./firstpage";
-import Toorders from "./Toorders";
-import Notificationicon from "./notificationicon";
-import Torequests from "./Torequests";
+import Toboxes from "./components/Boxescomponents/toboxes";
+import Firstpage from "./components/firstpage";
+import Toorders from "./components/Orderscomponents/Toorders";
+import Notificationicon from "./icons/notificationicon";
+import Torequests from "./components/Requestscomponents/Torequests";
 
 function App() {
   return (
